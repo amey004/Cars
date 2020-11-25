@@ -1,0 +1,71 @@
+body {
+    background-image: url("background.jpg");
+
+}
+h1 {
+    text-decoration: underline;
+    text-shadow: 1px 0.5px 5px red;
+}
+.animate
+{
+    animation: car 4s linear 0s infinite alternate;
+}
+@keyframes car {
+    0%   {background-color: #003366; left: 0px;top: 0px}
+  25%  {background-color: aqua; left:341.33px; top: 0px }
+  50%  {background-color: white;left: 682.667px;top: 0px}
+  100% {background-color: #ff6666;left: 1200px;top: 0px}
+}
+
+
+
+.hero
+{
+    width:400px;
+    height:250px;
+    margin: 18px;
+    background:url(f8-4.jpg);
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    border-style: double;
+    border-width: 1.5px ;
+    position: relative ; 
+    animation:change 20s infinite alternate;
+    animation-timing-function: ease-in-out;
+    
+ 
+}
+@keyframes change 
+{   0%{left: 0px;top: 0px;}
+    25%{background: url(f8-1.jpg);background-repeat: no-repeat;border-radius: 30px;width: 400px;height: 225px;border-style: double;
+       left: 225px;top: 0px;}
+    50%{background: url(f8-2.jpg);background-repeat: no-repeat;border-radius: 30px;width: 400px;height: 253px;border-style: double
+        ;left:500.33px; top: 0px ;}
+    75%{background: url(f8-3.jpg);background-repeat: no-repeat;border-radius: 30px;width: 400px;height: 207px;border-style: double;
+        left: 725.667px;top: 0px;}
+    100%{background: url(f8-4.jpg);background-repeat: no-repeat;border-radius: 30px;width: 400px;height:250sspx ;border-style: double;
+    left: 900px;top: 0px;}
+    
+}  
+
+
+.form
+{
+    width: 400px;
+    height: 420px;
+    margin: 18px;
+    padding: 20px;
+    background-color: #737373;
+    border-radius: 20px;
+    border-style: double ;
+    background: url('form.jpg'); opacity: 0.78 ;
+    font-family: cursive;
+
+
+
+
+
+
+}
+
+
